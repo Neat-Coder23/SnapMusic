@@ -1043,7 +1043,7 @@
             function openm() {
 
                 document.getElementById("drop").style.left = "0";
-                navigator.vibrate(250);
+                
 
             }
 
@@ -1084,6 +1084,7 @@
 
 
             function mint() {
+                navigator.vibrate([100,20]);
                 var isPlaying = aud.currentTime > 0 && !aud.paused && !aud.ended && aud.readyState > 2;
 
                 if (isPlaying) {
@@ -1093,6 +1094,7 @@
 
 
             function maxt() {
+                navigator.vibrate([100,20]);
                 var isPlaying = aud.currentTime > 0 && !aud.paused && !aud.ended && aud.readyState > 2;
 
                 if (isPlaying) {
@@ -1106,6 +1108,7 @@
 
 
             function play(e, i) {
+                navigator.vibrate(200);
 
 
 
@@ -1135,6 +1138,8 @@
                         lastsong = i;
 
                     } else {
+                        navigator.vibrate(250);
+
 
                         songs[lastsong].isPlay = false;
 
@@ -1155,6 +1160,7 @@
 
 
                 } else {
+                    
 
                     var isPlaying = aud.currentTime > 0 && !aud.paused && !aud.ended && aud.readyState > 2;
 
