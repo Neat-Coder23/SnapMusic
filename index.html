@@ -175,12 +175,12 @@
             box-shadow:0 0 20px 3px #000;
             letter-spacing:-1px;
             height:70px;
-            animation:high 1s ease-in 2.85s 1;
+            animation:high 1s ease-in 0s 1;
         }
         @keyframes high{
-           0%{border:0 solid white;}
-           50%{border:27px solid white;}
-           100%{border:0px solid white;}   
+           0%{border:0 solid white; opacity:0.2; transform:rotate(0deg);}
+           50%{border:27px solid white; opacity:0.7; transform:rotate(180deg);}
+           100%{border:0px solid white; opacity:1; transform:rotate(360deg);}   
         }
         @keyframes blink{
             0%{
