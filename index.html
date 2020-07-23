@@ -507,7 +507,7 @@
         
         .darkmode>div {
             background-color:rgb(230, 0, 115,0.6);
-            padding: 10px;
+            
             box-shadow: 0 0 10px 4px #000;
             text-shadow: 0px 0px 3px #000;
             border-radius: 5px;
@@ -533,8 +533,10 @@
             border-radius: 5px;
             padding: 20px;
         }
-        .comments{
-            width:80%;
+        .imgdark{
+            border-radius: 0 5px 5px 0;
+            padding:0;
+            height:100%;
         }
     </style>
     <div id="drop" class="drop">
@@ -683,6 +685,8 @@
                 menu.classList.toggle("darkmode");
                 let music = document.getElementById("music");
                 music.classList.toggle("darkmode > div");
+                let img = document.getElementsByClassName("img");
+                img.classList.toggle("imgdark");
             }
 
 
