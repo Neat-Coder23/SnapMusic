@@ -70,6 +70,7 @@
             width: calc(100%-20px);
             word-break: nowrap;
             overflow: hidden;
+            
             white-space: nowrap;
             font-family:Lobster;
         }
@@ -78,15 +79,18 @@
             border-radius: 0 5px 5px 0;
             padding: 0px;
             height: 100%;
-           
+            minwidth:40px;
+            maxwidth:80px;
         }
         
         .author {
             margin: 0 0 0 15px;
+            font-family:Handlee;
             color: #252525;
             width: calc(100%-20px);
             word-break: nowrap;
-            overflow: hidden;
+            overflowX: scroll;
+            overflowY: hidden;
             white-space: nowrap;
             text-overflow: handlee;
             font-size: 15px;
@@ -808,7 +812,7 @@
 
                 {
                     name: "Closer",
-                    artist: "Chainsmoker, Ft. Halsey",
+                    artist: "Chainsmoker,<br> Ft. Halsey",
                     poster: "https://wallpapercave.com/wp/wp4606687.jpg",
                     song: "https://dl.dropbox.com/s/zrll5kci35tyvw1/The%20Chainsmokers%20-%20Closer%20ft%20Halsey.mp3?dl=0",
                     isPlay: false
@@ -825,7 +829,7 @@
 
                 {
                     name: "Despacito",
-                    artist: "Daddy Yankee, Louis Foncy",
+                    artist: "Daddy Yankee,<br> Louis Fonzi",
                     poster: "https://m.media-amazon.com/images/M/MV5BNmQ4YzYwOWMtODBkOC00YjljLTkzMGYtYjY2OGU1N2NiODE5XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY120_CR19,0,82,120_AL_.jpg",
                     song: "https://dl.dropbox.com/s/5v7lazyj1x0yz5r/Luis%20Fonsi%20-%20Despacito%20ft%20Daddy%20Yankee.mp3?dl=0",
                     isPlay: false
