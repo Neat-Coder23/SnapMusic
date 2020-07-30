@@ -168,7 +168,9 @@
                 i++;
             }
             setInterval(typing, 300);
-            motionia("text","swirlIn");
+            document.getElementById("text").onclick = function(){
+                motionia("text","swirlIn");
+            }
             var darkmode = document.getElementById("darkmode");
 
             darkmode.onclick = function() {
