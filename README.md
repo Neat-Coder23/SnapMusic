@@ -1,2 +1,2 @@
-# Sakindu-projects
-###   A website for projects from Sakindu
+# $n@pMus!c
+###   Music Site
