@@ -117,10 +117,12 @@
  .panel .playbtn {
      transform: scale(1.5);
      text-align: center;
+     cursor:pointer;
  }
  
  .control {
      margin: 40px 0 20px 0px;
+     cursor:pointer;
  }
  
  .banner {
@@ -149,6 +151,7 @@
      z-index: 3;
      transition: 0.5s;
      backdrop-filter: blur(0px);
+     cursor:pointer;
  }
  
  .icon {
@@ -223,6 +226,7 @@
      background:rgb(255, 26, 117,0.7);
      box-shadow:0 0 7px 3px #000;
      border-radius:10px;
+     cursor:pointer;
  }
  
  .back {
@@ -440,6 +444,7 @@
      box-shadow: 0 0 5px 2px rgba(133, 72, 115,0.8);
      text-align: center;
      margin: 10px 10px 0 0;
+     cursor:pointer;
  }
  
  .preloader {
@@ -546,6 +551,7 @@
      margin:6px 0 6px 0;
      padding: 10px;
      background-color: rgb(255, 26, 117,0.7);
+     cursor:pointer;
  }
  .nav > a{
      text-decoration: none;
@@ -582,6 +588,7 @@
      display: inline-block;
      padding: 6px 5px 6px 5px;
      margin-bottom: 17px;
+     cursor:pointer;
  }
  .nav-btn > a{
      color:#fafafa;
