@@ -610,4 +610,8 @@
  .support > p{
      transform: translateX(-65px);
  }
+#disqus_thread{
+     width:80%;
+     top:100px;
+}
  
