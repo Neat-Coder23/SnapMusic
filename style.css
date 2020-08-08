@@ -603,13 +603,8 @@
      padding-left: 20px;
      text-align: center;
  }
- .supporttitle{
-     font-family: Righteous;
-     transform: translateX(-65px);
- }
- .support > p{
-     transform: translateX(-65px);
- }
+ 
+ 
 #disqus_thread{
      width:80%;
      top:100px;
