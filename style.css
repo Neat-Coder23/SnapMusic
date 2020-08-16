@@ -595,12 +595,12 @@
      color:#fafafa;
  }
  .support{
-     background-color: rgb(255, 26, 117,0.7);
+     
      position: absolute;
      z-index:1;
      box-sizing: border-box;
      width:100%;
-     padding-left: 20px;
+     
      text-align: center;
  }
  
