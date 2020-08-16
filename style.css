@@ -594,20 +594,4 @@
  .nav-btn > a{
      color:#fafafa;
  }
- .support{
-     
-     position: absolute;
-     z-index:1;
-     box-sizing: border-box;
-     width:100%;
-     
-     text-align: center;
- }
- 
- 
-#disqus_thread{
-     width:80%;
-     top:100px;
-     
-}
  
