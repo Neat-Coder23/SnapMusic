@@ -366,17 +366,14 @@
         
         window.onload = function() {
             
-            var i = 0;
-            var text = "$n@pMus!c";
+            var i = 0, text;
+            
+            text = "$n@pMus!c";
             
             function typing(){
-                var title = document.getElementById("text");
-                title.innerHTML += text.charAt(i);
-                i++;
+                document.getElementById('text').innerHTML += text.charAt(i);
+                i++
             }
-            
-            setInterval(typing, 300);
-            
         
             var container = document.getElementById("container");
         
