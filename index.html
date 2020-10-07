@@ -146,6 +146,19 @@
         
         var lastsong = null;
         
+        var i = 0,
+                text;
+            text = "     $n@pMus!c"
+            
+
+
+
+            function typing() {
+                document.getElementById("text").innerHTML += text.charAt(i);
+                i++;
+            }
+            setInterval(typing, 300);
+        
         
         
         
@@ -366,18 +379,7 @@
         
         window.onload = function() {
             
-            var i = 0,
-                text;
-            text = "     $n@pMus!c"
-            
-
-
-
-            function typing() {
-                document.getElementById("text").innerHTML += text.charAt(i);
-                i++;
-            }
-            setInterval(typing, 300);
+           
             var container = document.getElementById("container");
         
             for (var i = 0; i <= songs.length - 1; i++) {
